@@ -1,0 +1,18 @@
+{
+  "name": "@iosevka/font-glyphs",
+  "version": "31.6.1",
+  "private": true,
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./aesthetics": "./lib/meta/aesthetics.mjs",
+    "./unicode-knowledge": "./lib/meta/unicode-knowledge.mjs"
+  },
+  "dependencies": {
+    "@iosevka/font-kits": "31.6.1",
+    "@iosevka/geometry": "31.6.1",
+    "@iosevka/geometry-cache": "31.6.1",
+    "@iosevka/glyph": "31.6.1",
+    "@iosevka/util": "31.6.1",
+    "typo-geom": "^0.16.1"
+  }
+}
